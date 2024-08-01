@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.7.6">
+  <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
+    <mxGraphModel dx="1386" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id='2' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Uitspraak_selecteren&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Eigenaar&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='40' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='3' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.internverantwoordelijke_actief&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='140' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='4' value='id to Eigenaar' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='3' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='5' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Implicaties&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='240' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='6' value='Id to Implicatie' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='5' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='7' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Uitspraak&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='340' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='8' value='id to Is gerelateerd aan' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='7' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='9' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Rationale&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='440' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='10' value='Id to Rationale' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='9' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='11' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Thema&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='540' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='12' value='Id to Thema' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='11' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='13' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Type&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='640' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='14' value='Id to Type Maatregel' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='13' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>
+        <mxCell id='15' value='&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;dbo.Architectuur_Type_Uitspraak&lt;/strong&gt;&lt;/p&gt;&lt;hr /&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;Id&lt;/p&gt;' style='verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;strokeColor=#003366;shadow=1;fillColor=#D4E1F5;fontColor=#003366' parent='1' vertex='1'>
+          <mxGeometry x='40' y='740' width='160' height='80' as='geometry'/>
+        </mxCell>
+        <mxCell id='16' value='Id to Type Uitspraak' style='edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;' edge='1' parent='1' source='15' target='2'>
+          <mxGeometry relative='1' as='geometry'/>
+        </mxCell>      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
